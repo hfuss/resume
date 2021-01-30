@@ -43,13 +43,13 @@ hand -->
 
  - ...
 
- ### <span>Research Assistant, NCSU</span> <span>Nov 2013 -- May 2016</span>
+### <span>Research Assistant, NCSU</span> <span>Nov 2013 -- May 2016</span>
 
 ...
 
  - ...
 
- ### <span>REU Intern, Harvard</span> <span>June -- Aug 2015</span>
+### <span>REU Intern, Harvard</span> <span>June -- Aug 2015</span>
 
 ...
 

@@ -7,6 +7,7 @@ setup: venv
 	venv/bin/pip install -r requirements.txt
 
 resume: resume.pdf resume.html
+	open resume.pdf
 
 watch:
 	ls *.md *.css | entr make resume

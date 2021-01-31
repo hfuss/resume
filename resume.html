@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hayden Fuss</title>
+<link rel="stylesheet" type="text/css" href="resume.css">
+</head>
+<body>
+<div id="resume">
+<!-- The (first) h1 will be used as the <title> of the HTML page -->
+<h1>Hayden Fuss</h1>
+<!-- The unordered list immediately after the h1 will be formatted on a single
+line. It is intended to be used for contact details -->
+<ul>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#97;&#121;&#100;&#101;&#110;&#102;&#117;&#115;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#104;&#97;&#121;&#100;&#101;&#110;&#102;&#117;&#115;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+<li>(910) 262-7752</li>
+<li><a href="https://github.com/hfuss">github.com/hfuss</a></li>
+<li>Durham, NC</li>
+</ul>
+<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
+is intended to be used for a short summary. -->
+
+<p>Software Developer and Site Reliability Engineer with experience in delivering and maintaining
+cloud-based web / telecommunication services using modern DevOps practices and tooling. Former Research
+Assistant applying High Performance Computing (HPC) and Machine Learning (ML) for simulations / analytics.</p>
+<p>Interpersonal, innovative, and strategic. Enjoys providing the prototypes, technical glue, and planned work
+for teams to succeed. Passionate in using Kubernetes and open-source technologies to efficiently build
+and intelligently operate software applications.</p>
+<h2>Skills</h2>
+<ul>
+<li><strong>Programming</strong>: Golang, Java, Typescript</li>
+<li><strong>Frameworks</strong>: Operator SDK, Spring Boot</li>
+<li><strong>Scripting</strong>: Bash, Python</li>
+<li><strong>Provisioning</strong>: Helm, Ansible, Terraform, AWS CloudFormation</li>
+<li><strong>Packaging</strong>: Docker, Maven, make, Packer </li>
+<li><strong>CI/CD</strong>: GitHub Actions, ArgoCD, Jenkins on OpenShift</li>
+<li><strong>Cloud</strong>: OpenShift / Kubernetes, AWS EC2, oVirt</li>
+<li><strong>Observability</strong>: DataDog, Elastic Stack, Prometheus</li>
+<li><strong>Datastores</strong>: OpenLDAP, MariaDB, Kafka, Redis, Elasticsearch, etcd</li>
+<li><strong>Operating Systems</strong>: CentOS, Ubuntu</li>
+<li><strong>Agile</strong>: Kanban, Scrum</li>
+</ul>
+<h2>Experience</h2>
+<!-- You have to wrap the "left" and "right" half of these headings in spans by
+hand -->
+<h3><span>Software Developer / SRE, Bandwidth</span> <span>Jan 2017 &ndash; Present</span></h3>
+<p>Global cloud provider of Communications-Platform-as-a-Service (CPaaS) for calling, 911, SMS/MMS powered by internal VoIP networks.</p>
+<ul>
+<li>Developed an internal PaaS for cloud-native software deployments using OpenShift, ArgoCD, and open-source controllers</li>
+<li>Modernized the operations of a neglected OpenLDAP server pair, eventually deploying a replicated cluster of 20+ servers in multiple datacenters across the US</li>
+<li>Built, maintained, and tuned a highly-available, lightweight OAuth webserver backed by LDAP</li>
+<li>Implemented cheap health checking and load-balancing for multi-region applications using multi-value Route53 DNS records</li>
+<li>Monitored applications requiring 99.99% uptime using DataDog, Elastic Stack, ZenOSS, and SumoLogic</li>
+<li>Contributed to Ansible / CloudFormation automation that used EC2 and Route53 to blue/green stateful SIP/media servers</li>
+<li>Integrated various OAuth applications with Okta OIDC</li>
+<li>Containerized numerous applications using Docker</li>
+<li>Deployed various webservices and workers in AWS which required RDS Postgres, ElasticCache, and SQS</li>
+<li>Prototyped and contributed to a shared Jenkins library for building and deploying Java Spring Boot applications on OpenShift which is currently used company-wide</li>
+<li>Wrote CI/CD workflows using Jenkins and now GitHub Actions</li>
+<li>Attended conferences including AWS re:Invent and RedHat Summit</li>
+</ul>
+<h3><span>Software Engineering Intern, RedHat</span> <span>May &ndash; Aug 2016</span></h3>
+<p>International software company which primarily sells support for their enterprise offerings of open-source technologies.</p>
+<ul>
+<li>Worked as a full stack developer on an internal application used by Red Hat’s Support Delivery team</li>
+<li>Developed a job runner for executing background and scheduled tasks using Python’s multiprocessing library</li>
+<li>Created a user and admin UI for utilizing and managing the job runner with AngularJS and Bootstrap</li>
+<li>Assisted with configuring application containers using DockerPy</li>
+</ul>
+<h3><span>Research Assistant, NCSU - Yingling Research Group</span> <span>Nov 2013 &ndash; May 2016</span></h3>
+<p>A simulations and informatics research group specializing in soft materials, led by <a href="https://www.mse.ncsu.edu/yingling/">Dr. Yaroslava Yingling</a>.</p>
+<ul>
+<li>Wrote a C++ shared library for initializing and post-processing coarse-grained simulations</li>
+<li>Wrote a Python binding for the C++ library to ease the adoption for other researchers</li>
+<li>Implemented a cell-list algorithm for determining clusters of objects in 3D space with Periodic Boundary Conditions</li>
+<li>Submitted simulations and other programming scripts on HPC and GPU clusters using IBM LSF and Linux.</li>
+<li>Served as co-author for two articles in <a href="">Macromolecular Theory and Simulations (08/14/2014)</a> and <a href="">Soft Matter (08/18/2015)</a>.</li>
+</ul>
+<h3><span>REU Intern, Harvard - Institue for Applied Computation Science</span> <span>June &ndash; Aug 2015</span></h3>
+<p>Provides a rigorous academic experience, research opportunities and access to the latest data science and computational science methodologies and tools.</p>
+<ul>
+<li>Conducted data analysis of geo-coded Tweets, 911, and 311 datasets from the time of the Boston Marathon Bombings</li>
+<li>Developed a Python module for plotting geo-coded data over maps of the greater Boston area</li>
+<li>Experimented with Twitter sentiment analysis using a variety of classifiers from Python’s scikit-learn</li>
+</ul>
+<h2>Projects</h2>
+<h3><span>Ethernetes</span> <span>Fall 2020 - Present</span></h3>
+<ul>
+<li>A homemade GPU cluster for Ethereum mining, deep learning, and simulations managed via Kubernetes</li>
+</ul>
+<h3><span>Proxy (video game)</span> <span>Spring 2015 - Fall 2016</span></h3>
+<ul>
+<li>A 2D puzzle platformer designed and programmed using Unity and C# scripting</li>
+<li>Features moving platforms, lasers, parallax scrolling, particle effects, time trial mode and online leaderboards</li>
+</ul>
+<h3><span>Implementing the Multiple Hypothesis Tracking (MHT) Algorithm</span> <span>Spring 2016</span></h3>
+<ul>
+<li>Senior Design Project for the Laboratory of Analytical Sciences (LAS), mentored by Dr. James Keiser</li>
+<li>Worked on a team of four students, developing a generalized MHT implementation in Java that could be easily
+  extended for experimenting with different optimizations</li>
+</ul>
+<h3><span>Open Source Contributions</span></h3>
+<ul>
+<li>Contributor to the <a href="">summerwind/actions-runner-controller</a> and have often provided patched container images when GitHub <br />
+  has released auto-updates that have broken the controller</li>
+<li>Various Helm chart contributions to third-party controllers including ArgoCD and DataDog</li>
+</ul>
+<h2>Education</h2>
+<h3><span>North Carolina State University, BS Computer Science</span> <span>Aug 2013 &ndash; Dec 2016</span></h3>
+<ul>
+<li><strong>GPA</strong>: 4.0</li>
+<li><strong>Minor</strong>: Materials Science</li>
+</ul>
+<h3><span>Florida Southern College</span> <span>Aug 2012 &ndash; July 2013</span></h3>
+<ul>
+<li><strong>GPA</strong>: 4.0</li>
+<li>Pursued BS in Math and Chemistry</li>
+<li>Researched optimizing the seam curvature of baseballs using Fourier Analysis implemented in MATLAB</li>
+</ul></div>
+</body>
+</html>

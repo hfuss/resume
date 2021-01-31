@@ -1,28 +1,30 @@
 body {
-    color: #000000;
+    color: #302f2f;
     background: #EEEEEE;
-    font: 1.1em "Times New Roman";
+    font: 1.1em "Helvetica";
     line-height: 1.2;
     margin: 40px 0;
 }
 #resume {
     margin: 0 auto;
     max-width: 800px;
-    padding: 40px 60px;
+    padding: 20px 30px;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-shadow: 2px 2px 4px #AAAAAA;
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
 h1 {
+    background: #BFD5E9;
     text-align: center;
     font-size: 200%;
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid #000000;
 }
 h2 {
+    background: #BFD5E9;
     border-bottom: 1px solid #000000;
-    text-transform: uppercase;
     font-size: 130%;
     margin: 1em 0 0 0;
     padding: 0;
@@ -44,11 +46,14 @@ ul {
     }
 /* ul immediately after h1 = contact list */
 h1 + ul {
+    background: #BFD5E9;
     text-align: center;
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid #000000;
     }
 h1 + ul > li {
+    background: #BFD5E9;
     display: inline;
     white-space: pre;
     list-style-type: none;

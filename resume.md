@@ -11,28 +11,12 @@ line. It is intended to be used for contact details -->
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 
-Software Developer and Site Reliability Engineer with experience in delivering and maintaining
-cloud-based web / telecommunication services using modern DevOps practices and tooling. Former Research
+Software Developer and Site Reliability Engineer (SRE) with experience in delivering and maintaining
+cloud-native webservices using modern DevOps practices. Former Research
 Assistant applying High Performance Computing (HPC) and Machine Learning (ML) for simulations / analytics.
 
-Interpersonal, innovative, and strategic. Enjoys providing the prototypes, technical glue, and planned work
-for teams to succeed. Passionate in using Kubernetes and open-source technologies to efficiently build
+Enjoys providing the prototypes, technical glue, and planned work for teams to succeed. Passionate in using Kubernetes and open-source technologies to efficiently build
 and intelligently operate software applications.
-
-## Skills
-
- - **Programming**: Golang, Java, Typescript
- - **Frameworks**: Operator SDK, Spring Boot
- - **Scripting**: Bash, Python
- - **Provisioning**: Helm, Ansible, Terraform, AWS CloudFormation
- - **Packaging**: Docker, Maven, make, Packer 
- - **CI/CD**: GitHub Actions, ArgoCD, Jenkins on OpenShift
- - **Cloud**: OpenShift / Kubernetes, AWS EC2, oVirt
- - **Observability**: DataDog, Elastic Stack, Prometheus
- - **Datastores**: OpenLDAP, MariaDB, Kafka, Redis, Elasticsearch, etcd
- - **Operating Systems**: CentOS, Ubuntu
- - **Agile**: Kanban, Scrum
-
 
 ## Experience
 
@@ -40,71 +24,111 @@ and intelligently operate software applications.
 hand -->
 ### <span>Software Developer / SRE, Bandwidth</span> <span>Jan 2017 -- Present</span>
 
-Global cloud provider of Communications-Platform-as-a-Service (CPaaS) for calling, 911, SMS/MMS powered by internal VoIP networks.
+Cloud-ready voice, messaging, and 911 built for enterprise. Only API platform provider that owns a Tier 1 network, giving better quality, rates, and control.
 
- - Developed an internal PaaS for cloud-native software deployments using OpenShift, ArgoCD, and open-source controllers
- - Modernized the operations of a neglected OpenLDAP server pair, eventually deploying a replicated cluster of 20+ servers in multiple datacenters across the US
- - Built, maintained, and tuned a highly-available, lightweight OAuth webserver backed by LDAP
- - Implemented cheap health checking and load-balancing for multi-region applications using multi-value Route53 DNS records
- - Monitored applications requiring 99.99% uptime using DataDog, Elastic Stack, ZenOSS, and SumoLogic
- - Contributed to Ansible / CloudFormation automation that used EC2 and Route53 to blue/green stateful SIP/media servers
- - Integrated various OAuth applications with Okta OIDC
- - Containerized numerous applications using Docker
- - Deployed various webservices and workers in AWS which required RDS Postgres, ElasticCache, and SQS
- - Prototyped and contributed to a shared Jenkins library for building and deploying Java Spring Boot applications on OpenShift which is currently used company-wide
- - Wrote CI/CD workflows using Jenkins and now GitHub Actions
- - Attended conferences including AWS re:Invent and RedHat Summit
- 
+  - **Platform Engineering** (July 2020 - Present)
+    - Architected an internal PaaS for cloud-native software deployments using OpenShift, ArgoCD, 
+      AWS, and open-source controllers
+    - Monitored the Kubernetes control plane and ingress requiring 99.99% uptime using DataDog and 
+      Elastic Stack
+    - Contributed various fixes to open-source controllers' deployment manifests and source, 
+      usually in Helm and Golang
+    - Implemented CI/CD workflows using Jenkins and now GitHub Actions
+    - Developed a CLI tool in Golang for encrypting git-managed secrets using AWS KMS, and syncing 
+      to AWS Secrets Manager in multiple regions
+  - **Keystone Authentication Services** (Aug 2018 - July 2020)
+    - Migrated a neglected OpenLDAP server pair, eventually deploying a replicated cluster of 20+ 
+      servers in multiple datacenters across the US
+    - Built, maintained, and tuned a highly-available, lightweight Java webserver backed by LDAP 
+      in order to provide a unifying OIDC client credentials flow to secure our APIs
+    - Implemented cheap health checking and load-balancing for multi-region applications using 
+      multi-value Route53 DNS records
+    - Integrated various OAuth applications with Okta SSO and attended the Oktane 2019 conference
+    - Wrote and upheld SLO of 99.995% login requests would be less than 500ms and successful (or 
+      not result in server error)
+  - **DevOps Engineering** (Oct 2017 - Aug 2018)
+    - Prototyped and contributed to a shared Jenkins library for building and deploying Java Spring 
+      Boot applications on OpenShift which is currently used company-wide
+    - Attended AWS re:Invent 2017, and wrote demo Express websocket application using Bandwidth 
+      Messaging APIs and OpenShift Online for RedHat Summit 2018
+    - Containerized numerous applications using Docker
+  - **Catapult Voice and Messaging Platform** (Jan 2017 - Oct 2017)
+    - Contributed to Ansible / CloudFormation automation that used EC2 and Route53 to orchestrate   
+      blue / green deployments of stateful SIP servers and MM4 / SMTP gateways
+    - Deployed various webservices and workers in AWS which required RDS Postgres, ElastiCache,  
+      and SQS 
+  
 ### <span>Software Engineering Intern, RedHat</span> <span>May -- Aug 2016</span>
 
-International software company which primarily sells support for their enterprise offerings of open-source technologies.
+World's leading provider of open source solutions, using a community-powered approach to provide reliable and high-performing cloud, virtualization, storage, Linux, and middleware technologies.
 
-- Worked as a full stack developer on an internal application used by Red Hat’s Support Delivery team
-- Developed a job runner for executing background and scheduled tasks using Python’s multiprocessing library
-- Created a user and admin UI for utilizing and managing the job runner with AngularJS and Bootstrap
-- Assisted with configuring application containers using DockerPy
+  - Worked as a full stack developer on an internal containerized application used by Red Hat’s 
+    Support Delivery team
+  - Developed a job runner and UI for executing background and scheduled tasks using Python’s 
+    multiprocessing library and AngularJS
 
-### <span>Research Assistant, NCSU - Yingling Research Group</span> <span>Nov 2013 -- May 2016</span>
+### <span>Research Assistant, NCSU - [Yingling Research Group](https://www.mse.ncsu.edu/yingling/)</span> <span>Nov 2013 -- May 2016</span>
 
-A simulations and informatics research group specializing in soft materials, led by [Dr. Yaroslava Yingling](https://www.mse.ncsu.edu/yingling/).
+A simulations and informatics research group specializing in soft materials, led by Dr. Yaroslava Yingling.
 
-- Wrote a C++ shared library for initializing and post-processing coarse-grained simulations
-- Wrote a Python binding for the C++ library to ease the adoption for other researchers
-- Implemented a cell-list algorithm for determining clusters of objects in 3D space with Periodic Boundary Conditions
-- Submitted simulations and other programming scripts on HPC and GPU clusters using IBM LSF and Linux.
-- Served as co-author for two articles in [Macromolecular Theory and Simulations (08/14/2014)]() and [Soft Matter (08/18/2015)]().
+  - Wrote a C++ shared library and Python binding for initializing and post-processing coarse-grained simulations
+  - Implemented a cell-list algorithm for determining clusters of objects in 3D space with Periodic 
+    Boundary Conditions
+  - Submitted simulations and other programming scripts on HPC and GPU clusters using IBM LSF and 
+    Linux
+  - Served as co-author for two articles in [Macromolecular Theory and Simulations (08/14/2014)](http://onlinelibrary.wiley.com/doi/10.1002/mats.201400043/abstract) 
+    and [Soft Matter (08/18/2015)](http://pubs.rsc.org/en/content/articlelanding/2014/sm/c5sm01742d#!divAbstract)
 
 
-### <span>REU Intern, Harvard - Institue for Applied Computation Science</span> <span>June -- Aug 2015</span>
+### <span>REU Intern, Harvard - [Institute for Applied Computation Science](https://iacs.seas.harvard.edu/)</span> <span>June -- Aug 2015</span>
 
 Provides a rigorous academic experience, research opportunities and access to the latest data science and computational science methodologies and tools.
 
-- Conducted data analysis of geo-coded Tweets, 911, and 311 datasets from the time of the Boston Marathon Bombings
-- Developed a Python module for plotting geo-coded data over maps of the greater Boston area
-- Experimented with Twitter sentiment analysis using a variety of classifiers from Python’s scikit-learn
+  - Conducted data analysis of geo-coded Tweets, 911, and 311 datasets from the time of the Boston 
+    Marathon Bombings
+  - Developed a Python module for plotting geo-coded data over maps of the greater Boston area
+  - Experimented with Twitter sentiment analysis using a variety of classifiers from Python’s 
+    scikit-learn
 
 ## Projects
 
 ### <span>Ethernetes</span> <span>Fall 2020 - Present</span>
 
-- A homemade GPU cluster for Ethereum mining, deep learning, and simulations managed via Kubernetes
+  - A homemade GPU cluster for Ethereum mining, deep learning, and simulations managed via 
+    Kubernetes
 
 ### <span>Proxy (video game)</span> <span>Spring 2015 - Fall 2016</span>
 
-- A 2D puzzle platformer designed and programmed using Unity and C# scripting
-- Features moving platforms, lasers, parallax scrolling, particle effects, time trial mode and online leaderboards
+  - A 2D puzzle platformer designed and programmed using Unity and C# scripting
+  - Featured moving platforms, lasers, parallax scrolling, particle effects, time trial mode and 
+    online leaderboards
 
-### <span>Implementing the Multiple Hypothesis Tracking (MHT) Algorithm</span> <span>Spring 2016</span>
+### <span>Implementing the Multiple Hypothesis Tracking (MHT) Algorithm for Multi-Target Tracking</span> <span>Spring 2016</span>
 
-- Senior Design Project for the Laboratory of Analytical Sciences (LAS), mentored by Dr. James Keiser
-- Worked on a team of four students, developing a generalized MHT implementation in Java that could be easily
-  extended for experimenting with different optimizations
+  - Senior Design Project for the Laboratory of Analytical Sciences (LAS)
+  - Worked on a team of four students, developing a generalized MHT implementation in Java that 
+    could be easily extended for experimenting with different optimizations
+  - Used MHT implementation to identify and visualize probable entities in positional player data
+    collected from MOBA gameplay
 
-### <span>Open Source Contributions</span>
+### <span>[Open Source Contributions](https://github.com/hfuss)</span>
 
-- Contributor to the [summerwind/actions-runner-controller]() and have often provided patched container images when GitHub   
-  has released auto-updates that have broken the controller
-- Various Helm chart contributions to third-party controllers including ArgoCD and DataDog
+  - Contributor and sometimes patch maintainer for [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller)
+  - Various Helm chart, Docker image, and Golang contributions to third-party controllers including 
+    ArgoCD, DataDog, and RedHat's Keycloak
+
+## Skills
+
+  - **Programming**: Golang, Java, Python, Bash, Typescript
+  - **Frameworks**: Operator SDK, Spring Boot, Flask
+  - **Provisioning**: Helm, Ansible, Terraform, AWS CloudFormation
+  - **Packaging**: Docker, Maven, make, Packer 
+  - **CI/CD**: GitHub Actions, ArgoCD, Jenkins on OpenShift
+  - **Cloud**: OpenShift / Kubernetes, AWS EC2, oVirt
+  - **Observability**: DataDog, Elastic Stack, Prometheus
+  - **Datastores**: OpenLDAP, MariaDB, Kafka, Redis, Elasticsearch, etcd
+  - **Operating Systems**: CentOS, Ubuntu
+  - **Load Balancing**: HAProxy, F5, AWS ELBv2
 
 ## Education
 
@@ -113,9 +137,9 @@ Provides a rigorous academic experience, research opportunities and access to th
   - **GPA**: 4.0
   - **Minor**: Materials Science
 
-### <span>Florida Southern College</span> <span>Aug 2012 -- July 2013</span>
+<!-- ### <span>Florida Southern College</span> <span>Aug 2012 -- July 2013</span>
 
   - **GPA**: 4.0
   - Pursued BS in Math and Chemistry
-  - Researched optimizing the seam curvature of baseballs using Fourier Analysis implemented in MATLAB
- 
+  - Researched optimizing the sphericity of baseballs using the seam curvature Fourier Analysis 
+    implemented in MATLAB -->

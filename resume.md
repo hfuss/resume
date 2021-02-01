@@ -28,7 +28,7 @@ Cloud-ready voice, messaging, and 911 built for enterprise. Only API platform pr
 
   - **Platform Engineering** (July 2020 - Present)
     - Architected an internal PaaS for cloud-native software deployments using OpenShift, ArgoCD, 
-      AWS, and open-source controllers including KIAM, kubernetes-external-secrets, cert-manager, etc.
+      AWS, and open-source controllers including KIAM, kubernetes-external-secrets, cert-manager
     - Monitored the Kubernetes control plane and ingress requiring 99.99% uptime using DataDog and 
       Elastic Stack
     - Contributed various fixes to open-source controllers' deployment manifests and source, 
@@ -37,10 +37,12 @@ Cloud-ready voice, messaging, and 911 built for enterprise. Only API platform pr
     - Developed a CLI tool in Golang for encrypting git-managed secrets using AWS KMS, and syncing 
       to AWS Secrets Manager in multiple regions
   - **Keystone Authentication Services** (Aug 2018 - July 2020)
-    - Migrated a neglected OpenLDAP server pair, eventually deploying a replicated cluster of 20+ 
-      servers in multiple datacenters across the US
-    - Built, maintained, and tuned a highly-available, lightweight Java webserver backed by LDAP 
-      in order to provide a unifying OIDC client credentials flow to secure our APIs
+    - Rolled out replicated OpenLDAP clusters of 40+ servers in multiple datacenters across the 
+      US
+    - Developed custom tooling in Golang, Java, and Ansible to provide structured logs,   
+      OpenMetrics, and chaos scripts for our LDAP clusters
+    - Built a cloud-native Java webserver backed by LDAP in order to provide a single OAuth 
+      client credentials flow to secure our APIs
     - Implemented cheap health checking and load-balancing for multi-region applications using 
       multi-value Route53 DNS records
     - Integrated various OAuth applications with Okta SSO and attended the Oktane 2019 conference
@@ -98,7 +100,7 @@ Provides a rigorous academic experience, research opportunities and access to th
 
 ## Projects
 
-### <span>Ethernetes</span> <span>Fall 2020 - Present</span>
+### <span>[Ethernetes](https://github.com/hfuss/ethernetes)</span> <span>Fall 2020 - Present</span>
 
   - A homemade GPU cluster for Ethereum mining, deep learning, and simulations managed via 
     Kubernetes
@@ -119,10 +121,6 @@ Provides a rigorous academic experience, research opportunities and access to th
 
 ### <span>[Open Source Contributions](https://github.com/hfuss)</span>
 
-  - Contributor and sometimes patch maintainer for [summerwind/actions-runner-controller](https://github.com/summerwind/actions-runner-controller)
-  - Various Helm chart, Docker image, and Golang contributions to third-party controllers including 
-    ArgoCD, DataDog, and RedHat's Keycloak
-
 ## Skills
 
   - **Programming**: Golang, Java, Python, Bash, Typescript
@@ -132,7 +130,7 @@ Provides a rigorous academic experience, research opportunities and access to th
   - **CI/CD**: GitHub Actions, ArgoCD, Jenkins on OpenShift
   - **Cloud**: OpenShift / Kubernetes, AWS EC2, oVirt
   - **Observability**: DataDog, Kibana, Prometheus
-  - **Datastores**: OpenLDAP, MariaDB, Kafka, Redis, Elasticsearch, etcd
+  - **Data Stores**: OpenLDAP, MariaDB, Kafka, Redis, Elasticsearch, etcd
   - **Operating Systems**: CentOS, Ubuntu
   - **Load Balancing**: HAProxy, F5, AWS ELBv2
 

@@ -31,28 +31,28 @@ hand -->
 <p>Cloud-ready voice, messaging, and 911 built for enterprise. Only API platform provider that owns a Tier 1 network, giving better quality, rates, and control.</p>
 <ul>
 <li><strong>Platform Engineering</strong> (July 2020 - Present)<ul>
-<li>Architected an internal PaaS for cloud-native software deployments using OpenShift, ArgoCD, 
+<li>Architected an internal PaaS for cloud-native software deployments using OpenShift, ArgoCD,
   AWS, and open-source controllers including KIAM, kubernetes-external-secrets, cert-manager</li>
-<li>Monitored the Kubernetes control plane and ingress requiring 99.99% uptime using DataDog and 
+<li>Monitored the Kubernetes control plane and ingress requiring 99.99% uptime using DataDog and
   Elastic Stack</li>
-<li>Contributed various fixes to open-source controllers&rsquo; deployment manifests and source, 
+<li>Contributed various fixes to open-source controllers&rsquo; deployment manifests and source,
   usually in Helm and Golang</li>
 <li>Implemented CI/CD workflows using Jenkins and now GitHub Actions</li>
-<li>Developed a CLI tool in Golang for encrypting git-managed secrets using AWS KMS, and syncing 
+<li>Developed a CLI tool in Golang for encrypting git-managed secrets using AWS KMS, and syncing
   to AWS Secrets Manager in multiple regions</li>
 </ul>
 </li>
 <li><strong>Keystone Authentication Services</strong> (Aug 2018 - July 2020)<ul>
-<li>Rolled out replicated OpenLDAP clusters of 40+ servers in multiple datacenters across the 
+<li>Rolled out replicated OpenLDAP clusters of 40+ servers in multiple datacenters across the
   US</li>
 <li>Developed custom tooling in Golang, Java, and Ansible to provide structured logs, <br />
   OpenMetrics, and chaos scripts for our LDAP clusters</li>
-<li>Built a cloud-native Java webserver backed by LDAP in order to provide a single OAuth 
+<li>Built a cloud-native Java webserver backed by LDAP in order to provide a single OAuth
   client credentials flow to secure our APIs</li>
-<li>Implemented cheap health checking and load-balancing for multi-region applications using 
+<li>Implemented cheap health checking and load-balancing for multi-region applications using
   multi-value Route53 DNS records</li>
 <li>Integrated various OAuth applications with Okta SSO and attended the Oktane 2019 conference</li>
-<li>Wrote and upheld SLO of 99.995% login requests would be less than 500ms and successful (or 
+<li>Wrote and upheld SLO of 99.995% login requests would be less than 500ms and successful (or
   not result in server error)</li>
 </ul>
 </li>
@@ -71,57 +71,57 @@ hand -->
   blue / green deployments of stateful SIP servers and MM4 / SMTP gateways</li>
 <li>Deployed various webservices and workers in AWS which required RDS Postgres, ElastiCache,<br />
   and SQS</li>
-<li>Modified our call engine to use our internal text-to-speech (TTS) API circuit breaking 
-  between AWS Polly a TTS vendor</li>
+<li>Modified our call engine to use our internal text-to-speech (TTS) API circuit breaking
+  between AWS Polly and a third-party TTS vendor</li>
 </ul>
 </li>
 </ul>
 <h3><span>Software Engineering Intern, RedHat</span> <span>May &ndash; Aug 2016</span></h3>
 <p>World&rsquo;s leading provider of open source solutions, using a community-powered approach to provide reliable and high-performing cloud, virtualization, storage, Linux, and middleware technologies.</p>
 <ul>
-<li>Worked as a full stack developer on an internal containerized application used by Red Hat’s 
+<li>Worked as a full stack developer on an internal containerized application used by Red Hat’s
     Support Delivery team</li>
-<li>Developed a job runner and UI for executing background and scheduled tasks using Python’s 
+<li>Developed a job runner and UI for executing background and scheduled tasks using Python’s
     multiprocessing library, MongoDB, and AngularJS</li>
 </ul>
 <h3><span>Research Assistant, NCSU - <a href="https://www.mse.ncsu.edu/yingling/">Yingling Research Group</a></span> <span>Nov 2013 &ndash; May 2016</span></h3>
 <p>A simulations and informatics research group specializing in soft materials, led by Dr. Yaroslava Yingling.</p>
 <ul>
 <li>Wrote a C++ shared library and Python binding for initializing and post-processing coarse-grained simulations</li>
-<li>Implemented a cell-list algorithm for determining clusters of objects in 3D space with Periodic 
+<li>Implemented a cell-list algorithm for determining clusters of objects in 3D space with Periodic
     Boundary Conditions</li>
-<li>Submitted simulations and other programming scripts on HPC and GPU clusters using IBM LSF and 
+<li>Submitted simulations and other programming scripts on HPC and GPU clusters using IBM LSF and
     Linux</li>
-<li>Served as co-author for two articles in <a href="http://onlinelibrary.wiley.com/doi/10.1002/mats.201400043/abstract">Macromolecular Theory and Simulations (08/14/2014)</a> 
+<li>Served as co-author for two articles in <a href="http://onlinelibrary.wiley.com/doi/10.1002/mats.201400043/abstract">Macromolecular Theory and Simulations (08/14/2014)</a>
     and <a href="http://pubs.rsc.org/en/content/articlelanding/2014/sm/c5sm01742d#!divAbstract">Soft Matter (08/18/2015)</a>, and won several poster presentations in the Research Triangle area</li>
 </ul>
 <h3><span>REU Intern, Harvard - <a href="https://iacs.seas.harvard.edu/">Institute for Applied Computation Science</a></span> <span>June &ndash; Aug 2015</span></h3>
 <p>Provides a rigorous academic experience, research opportunities and access to the latest data science and computational science methodologies and tools.</p>
 <ul>
-<li>Conducted data analysis of geo-coded Tweets, 911, and 311 datasets from the time of the Boston 
+<li>Conducted data analysis of geo-coded Tweets, 911, and 311 datasets from the time of the Boston
     Marathon Bombings</li>
 <li>Developed a Python module for plotting geo-coded data over maps of the greater Boston area</li>
-<li>Experimented with Twitter sentiment analysis using a variety of classifiers from Python’s 
+<li>Experimented with Twitter sentiment analysis using a variety of classifiers from Python’s
     scikit-learn</li>
-<li>Won &ldquo;Most Creative&rdquo; with a team of friends at an HP Hackathon using Flask, OpenCV, and 
+<li>Won &ldquo;Most Creative&rdquo; with a team of friends at an HP Hackathon using Flask, OpenCV, and
     HP ML APIs</li>
 </ul>
 <h2>Projects</h2>
 <h3><span><a href="https://github.com/hfuss/ethernetes">Ethernetes</a></span> <span>Fall 2020 - Present</span></h3>
 <ul>
-<li>A homemade GPU cluster for Ethereum mining, deep learning, and simulations managed via 
+<li>A homemade GPU cluster for Ethereum mining, deep learning, and simulations managed via
     Kubernetes</li>
 </ul>
 <h3><span>Proxy (video game)</span> <span>Spring 2015 - Fall 2016</span></h3>
 <ul>
 <li>A 2D puzzle platformer designed and programmed using Unity and C# scripting</li>
-<li>Featured moving platforms, lasers, parallax scrolling, particle effects, time trial mode and 
+<li>Featured moving platforms, lasers, parallax scrolling, particle effects, time trial mode and
     online leaderboards</li>
 </ul>
 <h3><span>Implementing the Multiple Hypothesis Tracking (MHT) Algorithm for Multi-Target Tracking</span> <span>Spring 2016</span></h3>
 <ul>
 <li>Senior Design Project for the Laboratory of Analytical Sciences (LAS)</li>
-<li>Worked on a team of four students, developing a generalized MHT implementation in Java that 
+<li>Worked on a team of four students, developing a generalized MHT implementation in Java that
     could be easily extended for experimenting with different optimizations</li>
 <li>Used MHT implementation to identify and visualize probable entities in positional player data
     collected from MOBA gameplay</li>
@@ -132,7 +132,7 @@ hand -->
 <li><strong>Programming</strong>: Golang, Java, Python, Bash, Typescript</li>
 <li><strong>Frameworks</strong>: Operator SDK, Spring Boot, Flask</li>
 <li><strong>Provisioning</strong>: Helm, Ansible, Terraform, AWS CloudFormation</li>
-<li><strong>Packaging</strong>: Docker, Maven, make, Packer </li>
+<li><strong>Packaging</strong>: Docker, Maven, make, Packer</li>
 <li><strong>CI/CD</strong>: GitHub Actions, ArgoCD, Jenkins on OpenShift</li>
 <li><strong>Cloud</strong>: OpenShift / Kubernetes, AWS EC2, oVirt</li>
 <li><strong>Observability</strong>: DataDog, Kibana, Prometheus</li>
@@ -150,7 +150,7 @@ hand -->
 
   - **GPA**: 4.0
   - Pursued BS in Math and Chemistry
-  - Researched optimizing the sphericity of baseballs using the seam curvature Fourier Analysis 
+  - Researched optimizing the sphericity of baseballs using the seam curvature Fourier Analysis
     implemented in MATLAB --></div>
 </body>
 </html>

@@ -19,11 +19,11 @@ line. It is intended to be used for contact details -->
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 
-<p>Software Developer and Site Reliability Engineer (SRE) with experience in delivering and maintaining
-cloud-native webservices using modern DevOps practices. Former Research
-Assistant applying High Performance Computing (HPC) and Machine Learning (ML) for simulations / analytics.</p>
-<p>Enjoys providing the prototypes, technical glue, and planned work for teams to succeed. Passionate in using Kubernetes and open-source technologies to efficiently build
-and intelligently operate software applications.</p>
+<p>Site Reliability Engineer (SRE) with experience in delivering and maintaining
+cloud-native webservices. Former Research Assistant applying High Performance Computing (HPC) and Machine Learning (ML) for simulations / analytics.</p>
+<p>Enjoys providing the prototypes, technical glue, and planned work for teams to succeed. Passionate
+in using Kubernetes and open-source technologies to efficiently build and intelligently operate
+software applications.</p>
 <h2>Experience</h2>
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
@@ -32,7 +32,7 @@ hand -->
 <ul>
 <li><strong>Platform Engineering</strong> (July 2020 - Present)<ul>
 <li>Architected an internal PaaS for cloud-native software deployments using OpenShift, ArgoCD, 
-  AWS, and open-source controllers</li>
+  AWS, and open-source controllers including KIAM, kubernetes-external-secrets, cert-manager, etc.</li>
 <li>Monitored the Kubernetes control plane and ingress requiring 99.99% uptime using DataDog and 
   Elastic Stack</li>
 <li>Contributed various fixes to open-source controllers&rsquo; deployment manifests and source, 
@@ -55,18 +55,22 @@ hand -->
 </ul>
 </li>
 <li><strong>DevOps Engineering</strong> (Oct 2017 - Aug 2018)<ul>
-<li>Prototyped and contributed to a shared Jenkins library for building and deploying Java Spring 
+<li>Prototyped and contributed to a shared Jenkins library for building and deploying Java Spring
   Boot applications on OpenShift which is currently used company-wide</li>
-<li>Attended AWS re:Invent 2017, and wrote demo Express websocket application using Bandwidth 
+<li>Attended AWS re:Invent 2017, and wrote demo Express websocket application using Bandwidth
   Messaging APIs and OpenShift Online for RedHat Summit 2018</li>
 <li>Containerized numerous applications using Docker</li>
+<li>Assisted teams on delivering  applications on OpenShift which interacted with MariaDB, Kafka,
+  and Session Border Controllers (SBCs)</li>
 </ul>
 </li>
 <li><strong>Catapult Voice and Messaging Platform</strong> (Jan 2017 - Oct 2017)<ul>
-<li>Contributed to Ansible / CloudFormation automation that used EC2 and Route53 to orchestrate <br />
+<li>Contributed to Ansible / CloudFormation automation that used EC2 and Route53 to orchestrate<br />
   blue / green deployments of stateful SIP servers and MM4 / SMTP gateways</li>
 <li>Deployed various webservices and workers in AWS which required RDS Postgres, ElastiCache,<br />
-  and SQS </li>
+  and SQS</li>
+<li>Modified our call engine to use our internal text-to-speech (TTS) API circuit breaking 
+  between AWS Polly a TTS vendor</li>
 </ul>
 </li>
 </ul>
@@ -76,7 +80,7 @@ hand -->
 <li>Worked as a full stack developer on an internal containerized application used by Red Hat’s 
     Support Delivery team</li>
 <li>Developed a job runner and UI for executing background and scheduled tasks using Python’s 
-    multiprocessing library and AngularJS</li>
+    multiprocessing library, MongoDB, and AngularJS</li>
 </ul>
 <h3><span>Research Assistant, NCSU - <a href="https://www.mse.ncsu.edu/yingling/">Yingling Research Group</a></span> <span>Nov 2013 &ndash; May 2016</span></h3>
 <p>A simulations and informatics research group specializing in soft materials, led by Dr. Yaroslava Yingling.</p>
@@ -87,16 +91,18 @@ hand -->
 <li>Submitted simulations and other programming scripts on HPC and GPU clusters using IBM LSF and 
     Linux</li>
 <li>Served as co-author for two articles in <a href="http://onlinelibrary.wiley.com/doi/10.1002/mats.201400043/abstract">Macromolecular Theory and Simulations (08/14/2014)</a> 
-    and <a href="http://pubs.rsc.org/en/content/articlelanding/2014/sm/c5sm01742d#!divAbstract">Soft Matter (08/18/2015)</a></li>
+    and <a href="http://pubs.rsc.org/en/content/articlelanding/2014/sm/c5sm01742d#!divAbstract">Soft Matter (08/18/2015)</a>, and won several poster presentations in the Research Triangle area</li>
 </ul>
 <h3><span>REU Intern, Harvard - <a href="https://iacs.seas.harvard.edu/">Institute for Applied Computation Science</a></span> <span>June &ndash; Aug 2015</span></h3>
 <p>Provides a rigorous academic experience, research opportunities and access to the latest data science and computational science methodologies and tools.</p>
 <ul>
 <li>Conducted data analysis of geo-coded Tweets, 911, and 311 datasets from the time of the Boston 
-    Marathon Bombings</li>
+    Marathon Bombings with a team of fellow interns</li>
 <li>Developed a Python module for plotting geo-coded data over maps of the greater Boston area</li>
 <li>Experimented with Twitter sentiment analysis using a variety of classifiers from Python’s 
     scikit-learn</li>
+<li>Won &ldquo;Most Creative&rdquo; with a team of friends at an HP Hackathon using Flask, OpenCV, and 
+    HP ML APIs</li>
 </ul>
 <h2>Projects</h2>
 <h3><span>Ethernetes</span> <span>Fall 2020 - Present</span></h3>
@@ -132,7 +138,7 @@ hand -->
 <li><strong>Packaging</strong>: Docker, Maven, make, Packer </li>
 <li><strong>CI/CD</strong>: GitHub Actions, ArgoCD, Jenkins on OpenShift</li>
 <li><strong>Cloud</strong>: OpenShift / Kubernetes, AWS EC2, oVirt</li>
-<li><strong>Observability</strong>: DataDog, Elastic Stack, Prometheus</li>
+<li><strong>Observability</strong>: DataDog, Kibana, Prometheus</li>
 <li><strong>Datastores</strong>: OpenLDAP, MariaDB, Kafka, Redis, Elasticsearch, etcd</li>
 <li><strong>Operating Systems</strong>: CentOS, Ubuntu</li>
 <li><strong>Load Balancing</strong>: HAProxy, F5, AWS ELBv2</li>

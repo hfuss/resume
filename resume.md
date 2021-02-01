@@ -105,7 +105,7 @@ Provides a rigorous academic experience, research opportunities and access to th
   - A homemade GPU cluster for Ethereum mining, deep learning, and simulations managed via
     Kubernetes
 
-### <span>Proxy (video game)</span> <span>Spring 2015 - Fall 2016</span>
+### <span>[Proxy](https://www.youtube.com/watch?v=RihLS9o6hew) (video game)</span> <span>Spring 2015 - Fall 2016</span>
 
   - A 2D puzzle platformer designed and programmed using Unity and C# scripting
   - Featured moving platforms, lasers, parallax scrolling, particle effects, time trial mode and

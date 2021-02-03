@@ -118,7 +118,7 @@ hand -->
 ## Skills
 
   - **Programming**: Golang, Java, Python, Bash, Typescript
-  - **Frameworks**: Operator SDK, Spring Boot, Flask, OAuth 2.0, OIDC
+  - **Frameworks**: Operator SDK, Gin, Spring Boot, Flask, Express, OAuth 2.0, OIDC
   - **Provisioning**: Helm, Ansible, Terraform, AWS CloudFormation
   - **Packaging**: Docker, Maven, make, Packer
   - **CI/CD**: GitHub Actions, ArgoCD, Jenkins on OpenShift

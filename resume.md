@@ -49,8 +49,8 @@ hand -->
     - Wrote and upheld SLO of 99.995% login requests would be less than 500ms and successful (or
       not result in server error)
   - **DevOps Engineering** (Oct 2017 - Aug 2018)
-    - Prototyped and contributed to a shared Jenkins library for building and deploying Java Spring
-      Boot applications on OpenShift which is currently used company-wide
+    - Prototyped a shared Jenkins library for building and deploying Java Spring
+      Boot applications on OpenShift. Currently being used company-wide
     - Attended AWS re:Invent 2017, and wrote demo Express websocket application using Bandwidth
       Messaging APIs and OpenShift Online for RedHat Summit 2018
     - Containerized numerous applications using Docker
